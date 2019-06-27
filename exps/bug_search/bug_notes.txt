@@ -1,0 +1,23 @@
+objdump:
+
+tiny.input.0
+malloc overflow from format header
+make_section_from_shdr
+check_format_matches in format.c:311
+display_object_bfd
+
+(check undefined string error objdump.c:2357)
+
+tiny.input.1
+malloc overflow from bfd section size
+in
+bfd_get_full_section_contents (no compression)
+disassemble_section in odbjdump.c:2192
+
+tiny.input.2
+same as input.0 but for bfd_elf32_object in elfcode.h:805
+under check_format_matches
+
+tiny.input.3
+in bfd_elf_get_str_section at elf.c:307
+reads size directly from file

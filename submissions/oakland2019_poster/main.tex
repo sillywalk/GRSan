@@ -1,0 +1,173 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newcommand{\ttbf}[1]  {{\ttfamily\fontseries{m}\selectfont #1}}
+\newcommand{\tsup}[1]  {\textsuperscript{#1}}
+
+\begin{document}
+
+\title{Poster: Precise Dynamic Dataflow Tracking with Proximal Gradients}
+%\IEEEauthorblockA{\tsup{1}Columbia University\hspace{50pt}\tsup{2}Vrije Universiteit\\
+                  %\-\ New York, USA\hspace{50pt}Amsterdam, Netherlands\\ \\
+\author{
+  %\IEEEauthorblockN{Gabriel Ryan\tsup{1}, Abhishek Shah\tsup{1}, Dongdong She\tsup{1}, Suman Jana\tsup{1}}
+  \IEEEauthorblockN{Gabriel Ryan\tsup{1}}
+\IEEEauthorblockA{\tsup{1}Columbia University\\New York, USA}
+\and
+\IEEEauthorblockN{Koustubha Bhat\tsup{2}}
+\IEEEauthorblockA{\tsup{2}Vrije Universiteit\\Amsterdam, Netherlandsa}
+\textit{gabe@cs.columbia.edu, as5258@columbia.edu, ds3619@columbia.edu, k.bhat@vu.nl, suman@cs.columia.edua}
+}
+
+%\author{\IEEEauthorblockN{Gabriel Ryan}
+%\IEEEauthorblockA{\textit{Columbia University} \\
+%New York, USA \\
+%gabe@cs.columbia.edu}
+%\and
+%\IEEEauthorblockN{Abhishek Shah}
+%\IEEEauthorblockA{\textit{Columbia University} \\
+%New York, USA \\
+%as5258@columbia.edu}
+%\and
+%\IEEEauthorblockN{Dongdong She}
+%\IEEEauthorblockA{\textit{Columbia University} \\
+%New York, USA \\
+%ds3619@columbia.edu}
+%\and
+%\IEEEauthorblockN{Koustubha Bhat}
+%\IEEEauthorblockA{\textit{Vrije Universiteit} \\
+%Amsterdam, Netherlands \\
+ %k.bhat@vu.nl}
+%\and
+%\IEEEauthorblockN{Suman Jana}
+%\IEEEauthorblockA{\textit{Columbia University} \\
+%New York, USA \\
+%suman@cs.columia.edu}
+%}
+
+\author{\IEEEauthorblockN{Gabriel Ryan, Abhishek Shah, Dongdong She, Suman Jana}
+\IEEEauthorblockA{\textit{Columbia University} \\
+New York, USA \\
+\{gabe, dongdong, suman\}@cs.columbia.edu, abhishek.shah@columbia.edu}
+\and
+\IEEEauthorblockN{Koustubha Bhat}
+\IEEEauthorblockA{\textit{Vrije Universiteit} \\
+Amsterdam, Netherlands \\
+ k.bhat@vu.nl}
+}
+
+
+\maketitle
+
+\begin{abstract}
+  Dataflow analysis is a fundamental technique in the development of secure software. It has multiple security applications in detecting attacks, searching for vulnerabilities, and identifying privacy violations. Taint tracking is a type  of dataflow analysis is that tracks dataflow between a set of specified sources and sinks. However, taint tracking  suffers from high false positives/negatives due to fundamentally imprecise propogation rules, which limits its utility in real world applications.
+
+  We introduce a novel form of dynamic dataflow analysis, called proximal gradient analysis (PGA), that not only provides much more precise dataflow information than taint tracking, but also more fine grained information dataflow behavior in the form of a gradient. PGA uses proximal gradients to estimate derivatives on program operations that are not numerically differentiable, making it possible to propogate gradient estimates through a program in the same way taint tracking propogates labels. By using gradient to track dataflows, PGA naturally avoids many of the propogation errors that occur in taint tracking. We evaluate PGA on 7 widely used programs and show it achieves up to 39\% better precision that than taint while incurring lower average overhead due to the increased precision.
+\end{abstract}
+
+\begin{IEEEkeywords}
+poster, taint, dataflow, program analysis, nonsmooth optimization, gradient 
+\end{IEEEkeywords}
+
+\section{Introduction}
+Dataflow analysis is a fundamental technique in the development of secure software. It has multiple security applications in detecting attacks, searching for vulnerabilities, and identifying privacy violations ~\cite{schwartz2010all,enck2014taintdroid}. One of the most effective techniques of dataflow analysis is taint tracking, which tracks which internal variables are affected by the input ~\cite{newsome2005dynamic}. However, taint tracking  suffers from high false positives/negatives due to fundamentally imprecise propogation rules, which limits its utility in real world applications. 
+
+  We introduce a novel form of dynamic program analysis, called proximal gradient analysis (PGA), that not only provides much more precise dataflow information than taint tracking, but also more overall information about program behavior in the form of a gradient. PGA uses proximal gradients to estimate derivatives on program operations that are not numerically differentiable, making it possible to propogate gradient estimates through a program in the same way taint tracking propogates labels ~\cite{parikh2014proximal}. By using gradient to track dataflows, PGA naturally avoids many of the problems with over approximation that occur in taint tracking. 
+
+Figure \ref{fig:ex_funcs} gives an example of an operation on which PGA provides more precise and fine grained dataflow information compared to taint tracking. The source integer \ttbf{x} is left shifted by a byte every iteration of the for loop and then assigned to a position in the sink array \ttbf{y}. After the first 4 iterations, all the bytes of \ttbf{x}'s initial value have been shifted out and \ttbf{x} goes to 0. At this point, there is no dataflow between \ttbf{x} and the value of \ttbf{y[i]}, since it will always be 0. PGA correctly identifies this, and also identifies that changes in \ttbf{x} have a much larger effect on higher indexes in the array \ttbf{y}. In contrast, taint tracking will mark all of the integers in \ttbf{y} with \ttbf{x}'s label. 
+
+%\begin{figure*}[t]
+\begin{figure}
+  \centering
+    \includegraphics[width=\linewidth]{figs/ex2}
+  \vspace{-20pt}
+   \caption{ \textbf{Example of a program in which an iterated shift operation on an integer will cause over-tainting, while gradient will precisely identify how the source variable (x) influences the sink(y). Deeper shades of red indicate greater degrees of influence.}}
+  \label{fig:ex_funcs}
+  \vspace{-20pt}
+\end{figure}
+
+\section{Background}
+Our approach to program analysis draws on work in three fields: Dyanmic Dataflow Analyis, Nonsmooth Optimization, and Automatic Differentiation. Dynamic Dataflow Analysis models the flow of data through a program by tracking variable interactions and has applications in both compiler optimization and detection of security vulnerabilities, but suffers from high false positive rates that limit its utility. Nonsmooth Gradient Approximation involves a collection of methods that have been developed in the field of Nonsmooth Optimization for approximating gradients in cases where the gradient cannot be evaluated analytically. These methods make it possible to approximate gradients on discrete and nonsmooth functions in a principled way based on the local behavior of the function. Finally, we draw on the field of Automatic Differentiation, which involves methods for computing gradients over programs compused of semi smooth numerical operations, but not general programs with discrete and nonsmooth operations.
+
+To evaluate gradients over nonsmooth operations, we use a method from the discrete optimization literature called proximal gradients ~\cite{parikh2014proximal}. Proximal gradients use the minimum point within a soft bounded region. This region is defined by a cost function that increases quadratically with distance from the evaluation point. Proximal gradients use a specialed operator, called the proximal operator, which is defined as follows when evaluated on a given point $\bar{x}$:
+
+\vspace{-10pt}\begin{align}
+  prox_f\left(\bar{x}\right) &= argmin_x \left(f\left(x\right) + \tfrac{1}{2}|| x-\bar{x}||_2^2\right)
+\end{align}
+
+The notation $argmin_x$ indicates that the operator selects the value of $x$ that minimizes both value of function $f\left(x\right)$ and the distance cost $\left(\tfrac{1}{2}\right)|| x-\bar{x}||_2^2$ that increases quadratically with the distance of $x$ from $\bar{x}$. Evaluating the proximal operator will give the minimum point near the point at which it is evaluated. This point can then be used to compute the largest directional derivative in the region near the point. 
+
+% PROXIMAL GRADIENT
+\vspace{-10pt}\begin{align}
+  prox_{\nabla f}\left(\bar{x}\right) &= \frac{f\left(\bar{x}\right) - f\left(prox_f\left(\bar{x}\right)\right)}{\bar{x} - prox_f\left(\bar{x}\right)}
+\end{align}
+
+
+\section{Methodology and Implementation}
+
+We implement PGA as a new type of code sanitizer in the LLVM Framework. LLVM is a compiler framework that uses an Intermediate Representation that resembles high level assembly for instrumentation and optimization ~\cite{llvm2004}. Adding instrumentation at the IR level allows it to be compiled into the binary, making it significantly faster than instrumenting the binary directly, and allowing it to operate on programs written in any language supported by LLVM.
+
+Our implementation is based on the dynamic taint tracking sanitizer in LLVM, known as DataFlowSanitizer or dfsan. For each byte of application memory, dfsan has two corresponding bytes of shadow memory  that store the label for that byte. In order to track gradients, we modify dfsan to store a gradient associated with each shadow label in a separate table. Every operation is instrumented to evaluate its partial derivative and generate a new label.
+
+%We made the following modifications to the DataFlowSanitizer architecture in order support gradient analysis. First, we added additional metadata for each label representing positive and negative directional derivatives for the current marked byte. Second, we eliminated the union table and modified the instruction visitors to generate a new label and compute derivatives for that label if any of the inputs are labeled.  This results in the generation of more labels, as every differentiable operation with a labeled input creates a new label, but is necessary since each operation will have unique derivatives for a given set of inputs. 
+
+\section{Evaluation}
+
+We perform tests on a set 5 widely used file parsing libraries and 7 total programs, zlib, libxml, libjpeg, mupdf, and readelf, objdump, and strip in binutils.
+
+We evaluate the precision of PGA in comparison to DTA against an estimate of ground truth dataflows. To estimate ground truth, we mark bytes read from the input file as sources and branch conditions as sinks, and execute the program while modifying each byte in the input to determine which bytes effect each branch condition. We focus on branch constraints because they determine the behavior of a program, and because many security vulnerabilities in a program can only be exploited when certain branches are taken. We generate sample inputs by setting each byet 0, 255, and toggling each bit. 
+
+  Results for this experiment are shown in table ~\ref{tab:precision_comp}. PGA achieves as much as a 39\% increase in precision and has better f1 scores for all tested programs except \ttbf{mutool} and \ttbf{xmllint}, which are equal. We also evaluate the runtime of instrumented programs on the same inputs and find that on average PGA has less than 5\% more overhead than taint tracking, and in the worst case was 20\% greater.
+
+
+\begin{table}
+{\small
+  \begin{tabular}{p{0.9cm}rrrrrr} 
+ \toprule
+     & \multicolumn{3}{c}{Taint} & \multicolumn{3}{c}{Gradient} \\ 
+    Program & Precision & Recall & F1 & Precision & Recall & F1 \\ 
+ \midrule
+minigzip &0.55& 0.86 &0.68& 0.94& 0.71 & {\bf 0.81}\\ 
+djpeg &0.63&0.73&0.68&0.96&0.61&{\bf 0.74}\\
+mutool&1.0&0.01&\textbf{0.02}&1.0&0.01& \textbf{0.02}\\
+xmllint & 0.97 & 0.39 & \textbf{0.56}  & 0.97 & 0.39 & \textbf{0.56}\\
+readelf &0.17&0.95&0.28&0.18&0.93 & {\bf 0.30} \\
+objdump &0.77&0.80&0.78&0.94&0.79& {\bf 0.85}\\
+strip &0.60&0.83&0.70&0.88&0.79& {\bf 0.84} \\
+ \bottomrule
+ \end{tabular} }
+  \caption{\label{tab:precision_comp}\textbf{Summary of precision comparison results for taint and gradient analysis. Best F1 scores for each program are highlighted. PGA outperforms DTA on all programs except mutool and xmllint, which are tied.}}
+ \vspace{-20pt}
+\end{table}
+
+In addition to evaluated against estimated ground truth dataflows, we also show PGA is an effective tool for guiding mutation in fuzzers. We select bytes to be mutated based on the magnitude of their derivates to branch conditions, and compare to bytes selected with taint tracking, which must be sampled randomly since taint does not distinguish degrees of influence between between variables.
+
+\begin{figure}
+  \centering
+    \includegraphics[width=\linewidth]{figs/fuzz_subplot}
+  \vspace{-10pt}
+   \caption{ \textbf{Comparison of gradient and taint guided fuzzing on \ttbf{libxml} and \ttbf{readelf}. Gradient guided fuzzing achieves 0.57\% greater edge coverage on average after 100k mutations.}}
+  \label{fig:ex_funcs}
+  \vspace{-15pt}
+\end{figure}
+
+\section{Conclusion}
+
+We introduce a new type of Dynamic Dataflow Analysis, called Proximal Gradient Analysis, and show it outperforms Taint Tracking as a predictor of which inputs effect branch variables and guiding fuzzer mutations over 7 test programs with comparable overhead. We are currently investigating applications of Gradient Analysis to vulnerability discovery and information leak analysis.
+
+
+\bibliographystyle{plain}
+\bibliography{main}
+
+
+\end{document}

@@ -1,0 +1,18 @@
+%-------------------------------------------------------------------------------
+\section{Related Work}
+%-------------------------------------------------------------------------------
+
+\noindent \textbf{Information Flow Analysis} start with information flow, problem that has been studied since 70s (find first paper)
+
+\noindent \textbf{Dynamic Taint Tracking}Introduced in 2004 by Dawn Song to automatically detect buffer overflow attacks and generate attack signatures. Mark inputs and track whether they effect jump pointers, function pointers, etc (Mention why is it better than stack canaries and other static defenses). Problem is initial frameworks didn't handle conditional branching and limited inputs that were marked and sinks, thus overtainting wasn't a problem but missed potential attacks. More recent taint frameworks 2008-2012 (cite minimu, libdft, dytan, sword dft, more?) 
+
+- address iodine
+
+- address taintinduce
+
+\noindent \textbf{Guided Fuzzing} While some fuzzers have used dataflow directly (buzzfuzz, vuzzer), others use methods that are related to gradient. address neuzz, uses neural netowrk to estimate gradients, address angora, uses sampling and coordinate descent. obviously we are different from both, explain how...
+
+
+
+
+

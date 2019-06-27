@@ -1,0 +1,11 @@
+%%-------------------------------------------------------------------------------
+\begin{abstract}
+%-------------------------------------------------------------------------------
+  \gabe{update abstract to be in line with intro}
+
+Discovery of new security vulnerabilities is a fundamentally difficult problem because the space of possible inputs to a program is exponentially large. However, the parts of program input that significantly effect program behavior are sparse, so being able to correctly identify which parts of the input drive program behavior is key to effectively searching for vulnerabilities. To address this problem, several recent fuzzers have used dynamic taint tracking, or taint tracking, to track which input bytes have taint to branch variables or system calls. However, taint tracking is imprecise, having to either over or under approximate many operations, and only provides limited information about program behavior.
+
+We introduce a novel form of program analysis, Proximal Gradient Analysis, that not only provides much more precise dataflow information than taint tracking, but also more overall information about program behavior in the form of a gradient. First, we provide a theoretical grounding for Proximal Gradient Analysis in Nonsmooth Optimization methods, and derive sampling bounds that enable principled evaluation of Proximal Gradients on nonsmooth operations. We then describe a methodology for evaluating Proximal Gradients over programs and a proof of concept implementation as an LLVM pass. Finally, we evaluate Proximal Gradient Analysis in comparison to taint tracking and show that it is able to identify dataflows to branch variables with X\% higher precision and produces Y\% higher branch coverage in dataflow guided fuzzing. Using Proximal Gradient Analysis as a guide, we were able to find Z\% new bugs in 7 widely used file parsing programs, including memory allocation errors, memory corruption errors, and undefined behavior errors.
+\end{abstract}
+
+

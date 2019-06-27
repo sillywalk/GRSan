@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SCRIPT=$(readlink -f "$BASH_SOURCE[0]")
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+export PATH="${SCRIPTPATH}/objdump/bin:$PATH"
+export PATH="${SCRIPTPATH}/readelf/bin:$PATH"
+export PATH="${SCRIPTPATH}/strip/bin:$PATH"
+export PATH="${SCRIPTPATH}/mupdf/bin:$PATH"
+export PATH="${SCRIPTPATH}/zlib/bin:$PATH"
+export PATH="${SCRIPTPATH}/libxml/bin:$PATH"
+export PATH="${SCRIPTPATH}/jpeg/bin:$PATH"

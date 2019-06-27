@@ -1,0 +1,5 @@
+/configure.inc
+/configure.taint.inc
+/configure-llvm.log
+x86_64/
+x86_64_taint/

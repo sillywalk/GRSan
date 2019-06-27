@@ -1,0 +1,148 @@
+\documentclass[sigplan,10pt]{acmart}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+% main conference info (commented for initial submission):
+\copyrightyear{2019}
+\acmYear{2019}
+\setcopyright{acmlicensed}
+\acmConference[SOSP '19]{SOSP '19: ACM Symposium on Operating Systems Principals}{October 27--30, 2019}{Huntsville, Ontario}
+
+
+% not sure if we need this stuff:
+% \acmBooktitle{Huntsville '19: ACM Symposium on Operating Systems Principals, October 27--30, 2019, Huntsville, Ontario}
+%\acmPrice{15.00}
+%\acmDOI{10.1145/1122445.1122456}
+%\acmISBN{978-1-4503-9999-9/18/06}
+
+% math
+\usepackage{amsmath}
+
+% multicolumn in tables
+\usepackage{makecell}
+
+% subfigure
+\usepackage{subcaption}
+
+% code
+\usepackage{listings}
+
+% enum indent control
+\usepackage{enumitem}
+
+ %tables
+\usepackage{booktabs} 
+
+
+
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{beramono}
+
+\newcommand\SmallSz{\fontsize{8}{8.2}\selectfont}
+\newcommand*\LSTfont{\SmallSz\ttfamily\SetTracking{encoding=*}{-60}\lsstyle}
+
+
+%modern code fonts (this makes \sum disappear)
+%\usepackage{lmodern}
+
+\newcommand{\tc}[1]  {{\ttfamily\fontseries{m}\selectfont #1}}
+
+% Note Macros:
+\definecolor{mred}{rgb}{.80,.12,.30}
+\definecolor{grey}{rgb}{0.5,0.5,0.5}
+\definecolor{purple2}{rgb}{.75,0,.85}
+\definecolor{pistachio}{rgb}{0.58, 0.77, 0.45}
+\newcommand{\suman}[1]{\textcolor{mred}{(Suman: #1)}}
+\newcommand{\gabe}[1] {\textcolor{purple2}{(Gabe: #1)}}
+\newcommand{\abhi}[1] {\textcolor{blue}{(Abhi: #1)}}
+\newcommand{\ksb}[1]  {\textcolor{pistachio}{(Koustubha: #1)}}
+\newcommand{\dongdong}[1]  {\textcolor{pistachio}{(Dongdong: #1)}}
+
+  %basicstyle=\footnotesize \ttfamily,
+
+\lstset{
+  basicstyle=\LSTfont,
+  frame=single,
+  showlines=true
+}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+%-------------------------------------------------------------------------------
+
+%don't want date printed
+%\date{}
+
+% make title bold and 14 pt font (Latex default is non-bold, 16 pt)
+%\title{ Proximal Gradient Analysis for Systems Security}
+\title{    Accurate Dynamic Data Flow Analysis with \\ Proximal Gradients}
+
+%\author{ Author1}
+%\email{email1@email.edu}
+
+%\affiliation{%
+  %\institution{Univerisity}
+  %\streetaddress{StreetAddress}
+  %\city{City}
+  %\state{State}
+  %\postcode{Zip}
+%}
+
+%\author{Author2}
+%\email{email2@email.edu}
+
+%\affiliation{%
+  %\institution{Univerisity}
+  %\streetaddress{StreetAddress}
+  %\city{City}
+  %\state{State}
+  %\postcode{Zip}
+%}
+\input{sections/abstract.tex}
+
+% commented for initial submission
+%\begin{CCSXML}
+%<ccs2012>
+%<concept>
+%<concept_id>10002978.10003022.10003023</concept_id>
+%<concept_desc>Security and privacy~Software security engineering</concept_desc>
+%<concept_significance>500</concept_significance>
+%</concept>
+%</ccs2012>
+%\end{CCSXML}
+%\ccsdesc[500]{Security and privacy~Software security engineering}
+%\keywords{Dataflow Analysis, Program Security, Vulnerability Detection, Gradient Analysis, Deep Learning}
+
+
+\maketitle
+
+\input{sections/intro.tex}
+
+\input{sections/background.tex}
+
+\input{sections/working_example.tex}
+
+\input{sections/methodology.tex}
+
+\input{sections/implementation.tex}
+
+\input{sections/evaluation.tex}
+
+\input{sections/related.tex}
+
+\input{sections/conclusion.tex}
+
+
+
+\bibliographystyle{plain}
+\bibliography{main}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%  LocalWords:  endnotes includegraphics fread ptr nobj noindent
+%%  LocalWords:  pdflatex acks
+
+

@@ -1,0 +1,6 @@
+0. before you run neuzz, clean the seeds directory 
+   rm seeds/id_*
+1. command to run neuzz
+neuzz -i afl_in -o seeds -l 8306 ./miniunz -o @@
+2. command to run
+    miniunz -o @@

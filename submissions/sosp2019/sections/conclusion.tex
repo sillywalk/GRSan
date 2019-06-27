@@ -1,0 +1,5 @@
+%-------------------------------------------------------------------------------
+\section{Conclusion}
+%-------------------------------------------------------------------------------
+
+In this paper we introduce Proximal Gradient Analysis, a new form of dynamic dataflow analysis that uses proximal methods to approximate gradients over nondifferentiable operations in programs. Gradient analysis is more precise than current dataflow methods and provides more information about program behavior. We provide an implementation of gradient analysis based on the LLVM framework, and demonstrate our implementation performs better than the LLVM implementation of dynamic taint tracking in predicting dataflows and guiding a fuzzer, while adding lower average overhead. Finally, we show gradient analysis is an effective tool for bug finding, detecting X different CVEs, Y bugs, and Z information leaks in 7 real world programs.

@@ -1,0 +1,1842 @@
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function atoi
+12 is mark_ind; n_changes is 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+rdjpgcom.c:359 - marker' , 0, 12, 1, 32764, 1.000000, 1.000000
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+6: 4 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+7: 6 5 dx 257.0 257.0 x1 0 x2 16 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+8: 7 0 dx 257.0 257.0 x1 16 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+10: 8 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+12: 10 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+14: 12 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+16: 14 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+18: 16 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+20: 18 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+22: 20 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+24: 22 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+26: 24 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+28: 26 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+30: 28 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+32: 30 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+34: 32 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+36: 34 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+41: 39 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+42: 41 40 dx 257.0 257.0 x1 0 x2 67 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+43: 42 0 dx 257.0 257.0 x1 67 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+45: 43 0 dx 257.0 257.0 x1 65 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+47: 45 0 dx 257.0 257.0 x1 64 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+49: 47 0 dx 257.0 257.0 x1 63 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+51: 49 0 dx 257.0 257.0 x1 62 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+53: 51 0 dx 257.0 257.0 x1 61 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+55: 53 0 dx 257.0 257.0 x1 60 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+57: 55 0 dx 257.0 257.0 x1 59 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+59: 57 0 dx 257.0 257.0 x1 58 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+61: 59 0 dx 257.0 257.0 x1 57 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+63: 61 0 dx 257.0 257.0 x1 56 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+65: 63 0 dx 257.0 257.0 x1 55 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+67: 65 0 dx 257.0 257.0 x1 54 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+69: 67 0 dx 257.0 257.0 x1 53 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+71: 69 0 dx 257.0 257.0 x1 52 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+73: 71 0 dx 257.0 257.0 x1 51 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+75: 73 0 dx 257.0 257.0 x1 50 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+77: 75 0 dx 257.0 257.0 x1 49 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+79: 77 0 dx 257.0 257.0 x1 48 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+81: 79 0 dx 257.0 257.0 x1 47 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+83: 81 0 dx 257.0 257.0 x1 46 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+85: 83 0 dx 257.0 257.0 x1 45 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+87: 85 0 dx 257.0 257.0 x1 44 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+89: 87 0 dx 257.0 257.0 x1 43 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+91: 89 0 dx 257.0 257.0 x1 42 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+93: 91 0 dx 257.0 257.0 x1 41 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+95: 93 0 dx 257.0 257.0 x1 40 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+97: 95 0 dx 257.0 257.0 x1 39 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+99: 97 0 dx 257.0 257.0 x1 38 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+101: 99 0 dx 257.0 257.0 x1 37 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+103: 101 0 dx 257.0 257.0 x1 36 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+105: 103 0 dx 257.0 257.0 x1 35 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+107: 105 0 dx 257.0 257.0 x1 34 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+109: 107 0 dx 257.0 257.0 x1 33 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+111: 109 0 dx 257.0 257.0 x1 32 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+113: 111 0 dx 257.0 257.0 x1 31 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+115: 113 0 dx 257.0 257.0 x1 30 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+117: 115 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+119: 117 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+121: 119 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+123: 121 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+rdjpgcom.c:87 - read_byte' , 3, 12, 2, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 4, 12, 3, 224, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 0, 12, 3, 224, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 5, 12, 4, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 6, 12, 5, 16, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 7, 12, 9, 74, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 8, 12, 11, 70, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 9, 12, 13, 73, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 10, 12, 15, 70, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 11, 12, 17, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 12, 12, 19, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 13, 12, 21, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 14, 12, 23, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 15, 12, 25, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 16, 12, 27, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 17, 12, 29, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 18, 12, 31, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 19, 12, 33, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 20, 12, 35, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 21, 12, 37, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 22, 12, 38, 219, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 1, 12, 38, 219, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 23, 12, 39, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 24, 12, 40, 67, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 25, 12, 44, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 26, 12, 46, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 27, 12, 48, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 28, 12, 50, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 29, 12, 52, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 30, 12, 54, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 31, 12, 56, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 32, 12, 58, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 33, 12, 60, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 34, 12, 62, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 35, 12, 64, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 36, 12, 66, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 37, 12, 68, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 38, 12, 70, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 39, 12, 72, 10, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 40, 12, 74, 12, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 41, 12, 76, 20, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 42, 12, 78, 13, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 43, 12, 80, 12, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 44, 12, 82, 11, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 45, 12, 84, 11, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 46, 12, 86, 12, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 47, 12, 88, 25, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 48, 12, 90, 18, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 49, 12, 92, 19, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 50, 12, 94, 15, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 51, 12, 96, 20, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 52, 12, 98, 29, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 53, 12, 100, 26, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 54, 12, 102, 31, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 55, 12, 104, 30, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 56, 12, 106, 29, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 57, 12, 108, 26, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 58, 12, 110, 28, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 59, 12, 112, 28, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 60, 12, 114, 32, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 61, 12, 116, 36, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 62, 12, 118, 46, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 63, 12, 120, 39, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 64, 12, 122, 32, 1.000000, 1.000000
+rdjpgcom.c:87 - rea125: 123 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+127: 125 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+129: 127 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+131: 129 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+133: 131 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+135: 133 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+137: 135 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+139: 137 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+141: 139 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+143: 141 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+145: 143 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+147: 145 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+149: 147 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+151: 149 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+153: 151 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+155: 153 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+157: 155 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+159: 157 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+161: 159 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+163: 161 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+165: 163 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+167: 165 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+169: 167 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+171: 169 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+173: 171 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+178: 176 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+179: 178 177 dx 257.0 257.0 x1 0 x2 67 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+180: 179 0 dx 257.0 257.0 x1 67 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+182: 180 0 dx 257.0 257.0 x1 65 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+184: 182 0 dx 257.0 257.0 x1 64 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+186: 184 0 dx 257.0 257.0 x1 63 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+188: 186 0 dx 257.0 257.0 x1 62 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+190: 188 0 dx 257.0 257.0 x1 61 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+192: 190 0 dx 257.0 257.0 x1 60 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+194: 192 0 dx 257.0 257.0 x1 59 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+196: 194 0 dx 257.0 257.0 x1 58 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+198: 196 0 dx 257.0 257.0 x1 57 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+200: 198 0 dx 257.0 257.0 x1 56 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+202: 200 0 dx 257.0 257.0 x1 55 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+204: 202 0 dx 257.0 257.0 x1 54 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+206: 204 0 dx 257.0 257.0 x1 53 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+208: 206 0 dx 257.0 257.0 x1 52 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+210: 208 0 dx 257.0 257.0 x1 51 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+212: 210 0 dx 257.0 257.0 x1 50 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+214: 212 0 dx 257.0 257.0 x1 49 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+216: 214 0 dx 257.0 257.0 x1 48 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+218: 216 0 dx 257.0 257.0 x1 47 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+220: 218 0 dx 257.0 257.0 x1 46 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+222: 220 0 dx 257.0 257.0 x1 45 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+224: 222 0 dx 257.0 257.0 x1 44 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+226: 224 0 dx 257.0 257.0 x1 43 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+228: 226 0 dx 257.0 257.0 x1 42 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+230: 228 0 dx 257.0 257.0 x1 41 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+232: 230 0 dx 257.0 257.0 x1 40 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+234: 232 0 dx 257.0 257.0 x1 39 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+236: 234 0 dx 257.0 257.0 x1 38 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+238: 236 0 dx 257.0 257.0 x1 37 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+240: 238 0 dx 257.0 257.0 x1 36 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+242: 240 0 dx 257.0 257.0 x1 35 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+244: 242 0 dx 257.0 257.0 x1 34 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+d_byte' , 65, 12, 124, 34, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 66, 12, 126, 44, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 67, 12, 128, 35, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 68, 12, 130, 28, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 69, 12, 132, 28, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 70, 12, 134, 40, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 71, 12, 136, 55, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 72, 12, 138, 41, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 73, 12, 140, 44, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 74, 12, 142, 48, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 75, 12, 144, 49, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 76, 12, 146, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 77, 12, 148, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 78, 12, 150, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 79, 12, 152, 31, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 80, 12, 154, 39, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 81, 12, 156, 57, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 82, 12, 158, 61, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 83, 12, 160, 56, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 84, 12, 162, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 85, 12, 164, 60, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 86, 12, 166, 46, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 87, 12, 168, 51, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 88, 12, 170, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 89, 12, 172, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 90, 12, 174, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 91, 12, 175, 219, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 2, 12, 175, 219, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 92, 12, 176, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 93, 12, 177, 67, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 94, 12, 181, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 95, 12, 183, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 96, 12, 185, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 97, 12, 187, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 98, 12, 189, 12, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 99, 12, 191, 11, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 100, 12, 193, 12, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 101, 12, 195, 24, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 102, 12, 197, 13, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 103, 12, 199, 13, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 104, 12, 201, 24, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 105, 12, 203, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 106, 12, 205, 33, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 107, 12, 207, 28, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 108, 12, 209, 33, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 109, 12, 211, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 110, 12, 213, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 111, 12, 215, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 112, 12, 217, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 113, 12, 219, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 114, 12, 221, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 115, 12, 223, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 116, 12, 225, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 117, 12, 227, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 118, 12, 229, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 119, 12, 231, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 120, 12, 233, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 121, 12, 235, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 122, 12, 237, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 123, 12, 239, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 124, 12, 241, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 125, 12, 243, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 126, 12, 245, 50, 1.000000, 1.0246: 244 0 dx 257.0 257.0 x1 33 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+248: 246 0 dx 257.0 257.0 x1 32 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+250: 248 0 dx 257.0 257.0 x1 31 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+252: 250 0 dx 257.0 257.0 x1 30 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+254: 252 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+256: 254 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+258: 256 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+260: 258 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+262: 260 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+264: 262 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+266: 264 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+268: 266 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+270: 268 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+272: 270 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+274: 272 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+276: 274 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+278: 276 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+280: 278 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+282: 280 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+284: 282 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+286: 284 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+288: 286 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+290: 288 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+292: 290 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+294: 292 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+296: 294 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+298: 296 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+300: 298 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+302: 300 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+304: 302 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+306: 304 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+308: 306 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+310: 308 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+315: 313 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+316: 315 314 dx 257.0 257.0 x1 0 x2 17 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+320: 318 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+321: 320 319 dx 257.0 257.0 x1 0 x2 149 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+324: 322 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+325: 324 323 dx 257.0 257.0 x1 0 x2 227 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+00000
+rdjpgcom.c:87 - read_byte' , 127, 12, 247, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 128, 12, 249, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 129, 12, 251, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 130, 12, 253, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 131, 12, 255, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 132, 12, 257, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 133, 12, 259, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 134, 12, 261, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 135, 12, 263, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 136, 12, 265, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 137, 12, 267, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 138, 12, 269, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 139, 12, 271, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 140, 12, 273, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 141, 12, 275, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 142, 12, 277, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 143, 12, 279, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 144, 12, 281, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 145, 12, 283, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 146, 12, 285, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 147, 12, 287, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 148, 12, 289, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 149, 12, 291, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 150, 12, 293, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 151, 12, 295, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 152, 12, 297, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 153, 12, 299, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 154, 12, 301, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 155, 12, 303, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 156, 12, 305, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 157, 12, 307, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 158, 12, 309, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 159, 12, 311, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 160, 12, 312, 192, 1.000000, 1.000000
+
+----------------hexdump of file
+00000090  32 32 32 32 32 32 32 32  32 32 32 32 32 32 ff c0  |22222222222222..|
+000000a0  00 11 08 00 95 00 e3 03  01 22 00 02 11 01 03 11  |........."......|
+0xc0******
+rdjpgcom.c:359 - marker' , 3, 12, 312, 192, 1.000000, 1.000000
+---length--
+rdjpgcom.c:102 - read_2byte' , 161, 12, 313, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 162, 12, 314, 17, 1.000000, 1.000000
+--data_precision
+rdjpgcom.c:87 - read_byte' , 163, 12, 317, 8, 1.000000, 1.000000
+--image_height
+rdjpgcom.c:102 - read_2byte' , 164, 12, 318, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 165, 12, 319, 149, 1.000000, 1.000000
+--image_width
+rdjpgcom.c:102 - read_2byte' , 166, 12, 322, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 167, 12, 323, 227, 1.000000, 1.000000
+--num_components
+rdjpgcom.c:87 - read_byte' , 168, 12, 326, 3, 1.000000, 1.000000
+---**logderiviatives
+rdjpgcom.c:304 - data_precision' , 0, 12, 317, 8, 1.000000, 1.000000
+rdjpgcom.c:304 - num_components' , 0, 12, 326, 3, 1.000000, 1.000000
+rdjpgcom.c:304 - image_height' , 0, 12, 321, 149, 257.000000, 257.000000
+rdjpgcom.c:304 - image_width' , 0, 12, 325, 227, 257.000000, 257.000000
+rdjpgcom.c:304 - length' , 0, 12, 316, 17, 257.000000, 257.000000
+rdjpgcom.c:304 - process' , 0, 12, 0, 66, 0.0, 0.0 
+JPEG image is 227w * 149h, 3 color components, 8 bits per sample
+JPEG process: Baseline
+--------------------------------
+
+rdjpgcom.c:87 - read_byte' , 169, 12, 327, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 170, 12, 328, 34, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 171, 12, 329, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 172, 12, 330, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 173, 12, 331, 17, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 174, 12, 332, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 175, 12, 333, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 176, 12, 334, 17, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 177, 12, 335, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 178, 12, 336, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 179, 12, 337, 196, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 4, 12,==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+340: 338 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+341: 340 339 dx 257.0 257.0 x1 0 x2 31 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+342: 341 0 dx 257.0 257.0 x1 31 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+344: 342 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+346: 344 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+348: 346 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+350: 348 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+352: 350 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+354: 352 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+356: 354 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+358: 356 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+360: 358 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+362: 360 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+364: 362 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+366: 364 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+368: 366 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+370: 368 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+372: 370 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+374: 372 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+376: 374 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+378: 376 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+380: 378 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+382: 380 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+384: 382 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+386: 384 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+388: 386 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+390: 388 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+392: 390 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+394: 392 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+396: 394 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+398: 396 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+400: 398 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+405: 403 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+406: 405 404 dx 257.0 257.0 x1 0 x2 181 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+407: 406 0 dx 257.0 257.0 x1 181 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+409: 407 0 dx 257.0 257.0 x1 179 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+411: 409 0 dx 257.0 257.0 x1 178 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+413: 411 0 dx 257.0 257.0 x1 177 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+415: 413 0 dx 257.0 257.0 x1 176 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+417: 415 0 dx 257.0 257.0 x1 175 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+419: 417 0 dx 257.0 257.0 x1 174 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+421: 419 0 dx 257.0 257.0 x1 173 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+423: 421 0 dx 257.0 257.0 x1 172 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+425: 423 0 dx 257.0 257.0 x1 171 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+427: 425 0 dx 257.0 257.0 x1 170 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+429: 427 0 dx 257.0 257.0 x1 169 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+431: 429 0 dx 257.0 257.0 x1 168 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+433: 431 0 dx 257.0 257.0 x1 167 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+435: 433 0 dx 257.0 257.0 x1 166 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+437: 435 0 dx 257.0 257.0 x1 165 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+439: 437 0 dx 257.0 257.0 x1 164 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+441: 439 0 dx 257.0 257.0 x1 163 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+443: 441 0 dx 257.0 257.0 x1 162 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+445: 443 0 dx 257.0 257.0 x1 161 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+447: 445 0 dx 257.0 257.0 x1 160 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+449: 447 0 dx 257.0 257.0 x1 159 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+451: 449 0 dx 257.0 257.0 x1 158 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+453: 451 0 dx 257.0 257.0 x1 157 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+455: 453 0 dx 257.0 257.0 x1 156 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+457: 455 0 dx 257.0 257.0 x1 155 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+459: 457 0 dx 257.0 257.0 x1 154 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+ 337, 196, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 180, 12, 338, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 181, 12, 339, 31, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 182, 12, 343, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 183, 12, 345, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 184, 12, 347, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 185, 12, 349, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 186, 12, 351, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 187, 12, 353, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 188, 12, 355, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 189, 12, 357, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 190, 12, 359, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 191, 12, 361, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 192, 12, 363, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 193, 12, 365, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 194, 12, 367, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 195, 12, 369, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 196, 12, 371, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 197, 12, 373, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 198, 12, 375, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 199, 12, 377, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 200, 12, 379, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 201, 12, 381, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 202, 12, 383, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 203, 12, 385, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 204, 12, 387, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 205, 12, 389, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 206, 12, 391, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 207, 12, 393, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 208, 12, 395, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 209, 12, 397, 10, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 210, 12, 399, 11, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 211, 12, 401, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 212, 12, 402, 196, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 5, 12, 402, 196, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 213, 12, 403, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 214, 12, 404, 181, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 215, 12, 408, 16, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 216, 12, 410, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 217, 12, 412, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 218, 12, 414, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 219, 12, 416, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 220, 12, 418, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 221, 12, 420, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 222, 12, 422, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 223, 12, 424, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 224, 12, 426, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 225, 12, 428, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 226, 12, 430, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 227, 12, 432, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 228, 12, 434, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 229, 12, 436, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 230, 12, 438, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 231, 12, 440, 125, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 232, 12, 442, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 233, 12, 444, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 234, 12, 446, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 235, 12, 448, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 236, 12, 450, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 237, 12, 452, 17, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 238, 12, 454, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 239, 12, 456, 18, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 240, 12, 458, 33, 1.000000, 1.000000
+rdjpgcom.c:87 -461: 459 0 dx 257.0 257.0 x1 153 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+463: 461 0 dx 257.0 257.0 x1 152 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+465: 463 0 dx 257.0 257.0 x1 151 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+467: 465 0 dx 257.0 257.0 x1 150 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+469: 467 0 dx 257.0 257.0 x1 149 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+471: 469 0 dx 257.0 257.0 x1 148 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+473: 471 0 dx 257.0 257.0 x1 147 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+475: 473 0 dx 257.0 257.0 x1 146 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+477: 475 0 dx 257.0 257.0 x1 145 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+479: 477 0 dx 257.0 257.0 x1 144 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+481: 479 0 dx 257.0 257.0 x1 143 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+483: 481 0 dx 257.0 257.0 x1 142 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+485: 483 0 dx 257.0 257.0 x1 141 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+487: 485 0 dx 257.0 257.0 x1 140 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+489: 487 0 dx 257.0 257.0 x1 139 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+491: 489 0 dx 257.0 257.0 x1 138 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+493: 491 0 dx 257.0 257.0 x1 137 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+495: 493 0 dx 257.0 257.0 x1 136 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+497: 495 0 dx 257.0 257.0 x1 135 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+499: 497 0 dx 257.0 257.0 x1 134 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+501: 499 0 dx 257.0 257.0 x1 133 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+503: 501 0 dx 257.0 257.0 x1 132 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+505: 503 0 dx 257.0 257.0 x1 131 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+507: 505 0 dx 257.0 257.0 x1 130 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+509: 507 0 dx 257.0 257.0 x1 129 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+511: 509 0 dx 257.0 257.0 x1 128 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+513: 511 0 dx 257.0 257.0 x1 127 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+515: 513 0 dx 257.0 257.0 x1 126 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+517: 515 0 dx 257.0 257.0 x1 125 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+519: 517 0 dx 257.0 257.0 x1 124 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+521: 519 0 dx 257.0 257.0 x1 123 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+523: 521 0 dx 257.0 257.0 x1 122 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+525: 523 0 dx 257.0 257.0 x1 121 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+527: 525 0 dx 257.0 257.0 x1 120 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+529: 527 0 dx 257.0 257.0 x1 119 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+531: 529 0 dx 257.0 257.0 x1 118 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+533: 531 0 dx 257.0 257.0 x1 117 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+535: 533 0 dx 257.0 257.0 x1 116 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+537: 535 0 dx 257.0 257.0 x1 115 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+539: 537 0 dx 257.0 257.0 x1 114 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+541: 539 0 dx 257.0 257.0 x1 113 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+543: 541 0 dx 257.0 257.0 x1 112 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+545: 543 0 dx 257.0 257.0 x1 111 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+547: 545 0 dx 257.0 257.0 x1 110 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+549: 547 0 dx 257.0 257.0 x1 109 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+551: 549 0 dx 257.0 257.0 x1 108 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+553: 551 0 dx 257.0 257.0 x1 107 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+555: 553 0 dx 257.0 257.0 x1 106 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+557: 555 0 dx 257.0 257.0 x1 105 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+559: 557 0 dx 257.0 257.0 x1 104 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+561: 559 0 dx 257.0 257.0 x1 103 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+563: 561 0 dx 257.0 257.0 x1 102 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+565: 563 0 dx 257.0 257.0 x1 101 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+567: 565 0 dx 257.0 257.0 x1 100 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+569: 567 0 dx 257.0 257.0 x1 99 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+571: 569 0 dx 257.0 257.0 x1 98 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+573: 571 0 dx 257.0 257.0 x1 97 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+575: 573 0 dx 257.0 257.0 x1 96 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+577: 575 0 dx 257.0 257.0 x1 95 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+579: 577 0 dx 257.0 257.0 x1 94 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+581: 579 0 dx 257.0 257.0 x1 93 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+583: 581 0 dx 257.0 257.0 x1 92 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+ read_byte' , 241, 12, 460, 49, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 242, 12, 462, 65, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 243, 12, 464, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 244, 12, 466, 19, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 245, 12, 468, 81, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 246, 12, 470, 97, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 247, 12, 472, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 248, 12, 474, 34, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 249, 12, 476, 113, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 250, 12, 478, 20, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 251, 12, 480, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 252, 12, 482, 129, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 253, 12, 484, 145, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 254, 12, 486, 161, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 255, 12, 488, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 256, 12, 490, 35, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 257, 12, 492, 66, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 258, 12, 494, 177, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 259, 12, 496, 193, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 260, 12, 498, 21, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 261, 12, 500, 82, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 262, 12, 502, 209, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 263, 12, 504, 240, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 264, 12, 506, 36, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 265, 12, 508, 51, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 266, 12, 510, 98, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 267, 12, 512, 114, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 268, 12, 514, 130, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 269, 12, 516, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 270, 12, 518, 10, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 271, 12, 520, 22, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 272, 12, 522, 23, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 273, 12, 524, 24, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 274, 12, 526, 25, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 275, 12, 528, 26, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 276, 12, 530, 37, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 277, 12, 532, 38, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 278, 12, 534, 39, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 279, 12, 536, 40, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 280, 12, 538, 41, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 281, 12, 540, 42, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 282, 12, 542, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 283, 12, 544, 53, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 284, 12, 546, 54, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 285, 12, 548, 55, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 286, 12, 550, 56, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 287, 12, 552, 57, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 288, 12, 554, 58, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 289, 12, 556, 67, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 290, 12, 558, 68, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 291, 12, 560, 69, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 292, 12, 562, 70, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 293, 12, 564, 71, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 294, 12, 566, 72, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 295, 12, 568, 73, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 296, 12, 570, 74, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 297, 12, 572, 83, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 298, 12, 574, 84, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 299, 12, 576, 85, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 300, 12, 578, 86, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 301, 12, 580, 87, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 302, 12, 582, 88, 1.000000, 1.000000
+rdjpgcom.c:87585: 583 0 dx 257.0 257.0 x1 91 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+587: 585 0 dx 257.0 257.0 x1 90 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+589: 587 0 dx 257.0 257.0 x1 89 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+591: 589 0 dx 257.0 257.0 x1 88 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+593: 591 0 dx 257.0 257.0 x1 87 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+595: 593 0 dx 257.0 257.0 x1 86 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+597: 595 0 dx 257.0 257.0 x1 85 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+599: 597 0 dx 257.0 257.0 x1 84 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+601: 599 0 dx 257.0 257.0 x1 83 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+603: 601 0 dx 257.0 257.0 x1 82 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+605: 603 0 dx 257.0 257.0 x1 81 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+607: 605 0 dx 257.0 257.0 x1 80 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+609: 607 0 dx 257.0 257.0 x1 79 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+611: 609 0 dx 257.0 257.0 x1 78 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+613: 611 0 dx 257.0 257.0 x1 77 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+615: 613 0 dx 257.0 257.0 x1 76 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+617: 615 0 dx 257.0 257.0 x1 75 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+619: 617 0 dx 257.0 257.0 x1 74 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+621: 619 0 dx 257.0 257.0 x1 73 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+623: 621 0 dx 257.0 257.0 x1 72 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+625: 623 0 dx 257.0 257.0 x1 71 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+627: 625 0 dx 257.0 257.0 x1 70 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+629: 627 0 dx 257.0 257.0 x1 69 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+631: 629 0 dx 257.0 257.0 x1 68 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+633: 631 0 dx 257.0 257.0 x1 67 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+635: 633 0 dx 257.0 257.0 x1 66 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+637: 635 0 dx 257.0 257.0 x1 65 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+639: 637 0 dx 257.0 257.0 x1 64 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+641: 639 0 dx 257.0 257.0 x1 63 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+643: 641 0 dx 257.0 257.0 x1 62 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+645: 643 0 dx 257.0 257.0 x1 61 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+647: 645 0 dx 257.0 257.0 x1 60 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+649: 647 0 dx 257.0 257.0 x1 59 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+651: 649 0 dx 257.0 257.0 x1 58 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+653: 651 0 dx 257.0 257.0 x1 57 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+655: 653 0 dx 257.0 257.0 x1 56 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+657: 655 0 dx 257.0 257.0 x1 55 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+659: 657 0 dx 257.0 257.0 x1 54 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+661: 659 0 dx 257.0 257.0 x1 53 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+663: 661 0 dx 257.0 257.0 x1 52 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+665: 663 0 dx 257.0 257.0 x1 51 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+667: 665 0 dx 257.0 257.0 x1 50 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+669: 667 0 dx 257.0 257.0 x1 49 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+671: 669 0 dx 257.0 257.0 x1 48 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+673: 671 0 dx 257.0 257.0 x1 47 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+675: 673 0 dx 257.0 257.0 x1 46 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+677: 675 0 dx 257.0 257.0 x1 45 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+679: 677 0 dx 257.0 257.0 x1 44 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+681: 679 0 dx 257.0 257.0 x1 43 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+683: 681 0 dx 257.0 257.0 x1 42 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+685: 683 0 dx 257.0 257.0 x1 41 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+687: 685 0 dx 257.0 257.0 x1 40 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+689: 687 0 dx 257.0 257.0 x1 39 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+691: 689 0 dx 257.0 257.0 x1 38 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+693: 691 0 dx 257.0 257.0 x1 37 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+695: 693 0 dx 257.0 257.0 x1 36 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+697: 695 0 dx 257.0 257.0 x1 35 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+699: 697 0 dx 257.0 257.0 x1 34 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+701: 699 0 dx 257.0 257.0 x1 33 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+703: 701 0 dx 257.0 257.0 x1 32 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+705: 703 0 dx 257.0 257.0 x1 31 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+ - read_byte' , 303, 12, 584, 89, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 304, 12, 586, 90, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 305, 12, 588, 99, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 306, 12, 590, 100, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 307, 12, 592, 101, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 308, 12, 594, 102, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 309, 12, 596, 103, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 310, 12, 598, 104, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 311, 12, 600, 105, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 312, 12, 602, 106, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 313, 12, 604, 115, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 314, 12, 606, 116, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 315, 12, 608, 117, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 316, 12, 610, 118, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 317, 12, 612, 119, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 318, 12, 614, 120, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 319, 12, 616, 121, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 320, 12, 618, 122, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 321, 12, 620, 131, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 322, 12, 622, 132, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 323, 12, 624, 133, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 324, 12, 626, 134, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 325, 12, 628, 135, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 326, 12, 630, 136, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 327, 12, 632, 137, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 328, 12, 634, 138, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 329, 12, 636, 146, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 330, 12, 638, 147, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 331, 12, 640, 148, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 332, 12, 642, 149, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 333, 12, 644, 150, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 334, 12, 646, 151, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 335, 12, 648, 152, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 336, 12, 650, 153, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 337, 12, 652, 154, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 338, 12, 654, 162, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 339, 12, 656, 163, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 340, 12, 658, 164, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 341, 12, 660, 165, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 342, 12, 662, 166, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 343, 12, 664, 167, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 344, 12, 666, 168, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 345, 12, 668, 169, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 346, 12, 670, 170, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 347, 12, 672, 178, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 348, 12, 674, 179, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 349, 12, 676, 180, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 350, 12, 678, 181, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 351, 12, 680, 182, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 352, 12, 682, 183, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 353, 12, 684, 184, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 354, 12, 686, 185, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 355, 12, 688, 186, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 356, 12, 690, 194, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 357, 12, 692, 195, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 358, 12, 694, 196, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 359, 12, 696, 197, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 360, 12, 698, 198, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 361, 12, 700, 199, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 362, 12, 702, 200, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 363, 12, 704, 201, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte707: 705 0 dx 257.0 257.0 x1 30 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+709: 707 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+711: 709 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+713: 711 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+715: 713 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+717: 715 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+719: 717 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+721: 719 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+723: 721 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+725: 723 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+727: 725 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+729: 727 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+731: 729 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+733: 731 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+735: 733 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+737: 735 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+739: 737 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+741: 739 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+743: 741 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+745: 743 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+747: 745 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+749: 747 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+751: 749 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+753: 751 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+755: 753 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+757: 755 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+759: 757 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+761: 759 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+763: 761 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+765: 763 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+770: 768 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+771: 770 769 dx 257.0 257.0 x1 0 x2 31 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+772: 771 0 dx 257.0 257.0 x1 31 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+774: 772 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+776: 774 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+778: 776 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+780: 778 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+782: 780 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+784: 782 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+786: 784 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+788: 786 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+790: 788 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+792: 790 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+794: 792 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+796: 794 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+798: 796 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+800: 798 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+802: 800 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+804: 802 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+806: 804 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+808: 806 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+810: 808 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+812: 810 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+814: 812 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+816: 814 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+818: 816 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+820: 818 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+822: 820 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+824: 822 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+826: 824 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+' , 364, 12, 706, 202, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 365, 12, 708, 210, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 366, 12, 710, 211, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 367, 12, 712, 212, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 368, 12, 714, 213, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 369, 12, 716, 214, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 370, 12, 718, 215, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 371, 12, 720, 216, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 372, 12, 722, 217, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 373, 12, 724, 218, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 374, 12, 726, 225, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 375, 12, 728, 226, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 376, 12, 730, 227, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 377, 12, 732, 228, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 378, 12, 734, 229, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 379, 12, 736, 230, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 380, 12, 738, 231, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 381, 12, 740, 232, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 382, 12, 742, 233, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 383, 12, 744, 234, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 384, 12, 746, 241, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 385, 12, 748, 242, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 386, 12, 750, 243, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 387, 12, 752, 244, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 388, 12, 754, 245, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 389, 12, 756, 246, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 390, 12, 758, 247, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 391, 12, 760, 248, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 392, 12, 762, 249, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 393, 12, 764, 250, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 394, 12, 766, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 395, 12, 767, 196, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 6, 12, 767, 196, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 396, 12, 768, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 397, 12, 769, 31, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 398, 12, 773, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 399, 12, 775, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 400, 12, 777, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 401, 12, 779, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 402, 12, 781, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 403, 12, 783, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 404, 12, 785, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 405, 12, 787, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 406, 12, 789, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 407, 12, 791, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 408, 12, 793, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 409, 12, 795, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 410, 12, 797, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 411, 12, 799, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 412, 12, 801, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 413, 12, 803, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 414, 12, 805, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 415, 12, 807, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 416, 12, 809, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 417, 12, 811, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 418, 12, 813, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 419, 12, 815, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 420, 12, 817, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 421, 12, 819, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 422, 12, 821, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 423, 12, 823, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 424, 12, 825, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byt828: 826 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+830: 828 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+835: 833 0 dx 256.0 256.0 x1 0 x2 8 dx1 1.0 1.0 dx2 0.0 0.0 -- Shl supported insnID: 0
+836: 835 834 dx 257.0 257.0 x1 0 x2 181 dx1 256.0 256.0 dx2 1.0 1.0 -- Add supported insnID: 0
+837: 836 0 dx 257.0 257.0 x1 181 x2 2 dx1 257.0 257.0 dx2 0.0 0.0 -- Sub supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+839: 837 0 dx 257.0 257.0 x1 179 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+841: 839 0 dx 257.0 257.0 x1 178 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+843: 841 0 dx 257.0 257.0 x1 177 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+845: 843 0 dx 257.0 257.0 x1 176 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+847: 845 0 dx 257.0 257.0 x1 175 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+849: 847 0 dx 257.0 257.0 x1 174 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+851: 849 0 dx 257.0 257.0 x1 173 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+853: 851 0 dx 257.0 257.0 x1 172 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+855: 853 0 dx 257.0 257.0 x1 171 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+857: 855 0 dx 257.0 257.0 x1 170 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+859: 857 0 dx 257.0 257.0 x1 169 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+861: 859 0 dx 257.0 257.0 x1 168 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+863: 861 0 dx 257.0 257.0 x1 167 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+865: 863 0 dx 257.0 257.0 x1 166 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+867: 865 0 dx 257.0 257.0 x1 165 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+869: 867 0 dx 257.0 257.0 x1 164 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+871: 869 0 dx 257.0 257.0 x1 163 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+873: 871 0 dx 257.0 257.0 x1 162 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+875: 873 0 dx 257.0 257.0 x1 161 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+877: 875 0 dx 257.0 257.0 x1 160 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+879: 877 0 dx 257.0 257.0 x1 159 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+881: 879 0 dx 257.0 257.0 x1 158 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+883: 881 0 dx 257.0 257.0 x1 157 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+885: 883 0 dx 257.0 257.0 x1 156 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+887: 885 0 dx 257.0 257.0 x1 155 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+889: 887 0 dx 257.0 257.0 x1 154 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+891: 889 0 dx 257.0 257.0 x1 153 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+893: 891 0 dx 257.0 257.0 x1 152 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+895: 893 0 dx 257.0 257.0 x1 151 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+897: 895 0 dx 257.0 257.0 x1 150 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+899: 897 0 dx 257.0 257.0 x1 149 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+901: 899 0 dx 257.0 257.0 x1 148 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+903: 901 0 dx 257.0 257.0 x1 147 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+905: 903 0 dx 257.0 257.0 x1 146 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+907: 905 0 dx 257.0 257.0 x1 145 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+909: 907 0 dx 257.0 257.0 x1 144 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+911: 909 0 dx 257.0 257.0 x1 143 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+913: 911 0 dx 257.0 257.0 x1 142 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+915: 913 0 dx 257.0 257.0 x1 141 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+917: 915 0 dx 257.0 257.0 x1 140 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+919: 917 0 dx 257.0 257.0 x1 139 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+921: 919 0 dx 257.0 257.0 x1 138 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+923: 921 0 dx 257.0 257.0 x1 137 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+925: 923 0 dx 257.0 257.0 x1 136 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+927: 925 0 dx 257.0 257.0 x1 135 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+929: 927 0 dx 257.0 257.0 x1 134 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+931: 929 0 dx 257.0 257.0 x1 133 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+933: 931 0 dx 257.0 257.0 x1 132 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+935: 933 0 dx 257.0 257.0 x1 131 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+937: 935 0 dx 257.0 257.0 x1 130 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+939: 937 0 dx 257.0 257.0 x1 129 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+941: 939 0 dx 257.0 257.0 x1 128 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+943: 941 0 dx 257.0 257.0 x1 127 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+945: 943 0 dx 257.0 257.0 x1 126 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+947: 945 0 dx 257.0 257.0 x1 125 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+e' , 425, 12, 827, 10, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 426, 12, 829, 11, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 427, 12, 831, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 428, 12, 832, 196, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 7, 12, 832, 196, 1.000000, 1.000000
+rdjpgcom.c:102 - read_2byte' , 429, 12, 833, 0, 1.000000, 1.000000
+rdjpgcom.c:105 - read_2byte' , 430, 12, 834, 181, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 431, 12, 838, 17, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 432, 12, 840, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 433, 12, 842, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 434, 12, 844, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 435, 12, 846, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 436, 12, 848, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 437, 12, 850, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 438, 12, 852, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 439, 12, 854, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 440, 12, 856, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 441, 12, 858, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 442, 12, 860, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 443, 12, 862, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 444, 12, 864, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 445, 12, 866, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 446, 12, 868, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 447, 12, 870, 119, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 448, 12, 872, 0, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 449, 12, 874, 1, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 450, 12, 876, 2, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 451, 12, 878, 3, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 452, 12, 880, 17, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 453, 12, 882, 4, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 454, 12, 884, 5, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 455, 12, 886, 33, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 456, 12, 888, 49, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 457, 12, 890, 6, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 458, 12, 892, 18, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 459, 12, 894, 65, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 460, 12, 896, 81, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 461, 12, 898, 7, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 462, 12, 900, 97, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 463, 12, 902, 113, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 464, 12, 904, 19, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 465, 12, 906, 34, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 466, 12, 908, 50, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 467, 12, 910, 129, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 468, 12, 912, 8, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 469, 12, 914, 20, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 470, 12, 916, 66, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 471, 12, 918, 145, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 472, 12, 920, 161, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 473, 12, 922, 177, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 474, 12, 924, 193, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 475, 12, 926, 9, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 476, 12, 928, 35, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 477, 12, 930, 51, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 478, 12, 932, 82, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 479, 12, 934, 240, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 480, 12, 936, 21, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 481, 12, 938, 98, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 482, 12, 940, 114, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 483, 12, 942, 209, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 484, 12, 944, 10, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 485, 12, 946, 22, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 486, 12, 94949: 947 0 dx 257.0 257.0 x1 124 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+951: 949 0 dx 257.0 257.0 x1 123 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+953: 951 0 dx 257.0 257.0 x1 122 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+955: 953 0 dx 257.0 257.0 x1 121 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+957: 955 0 dx 257.0 257.0 x1 120 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+959: 957 0 dx 257.0 257.0 x1 119 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+961: 959 0 dx 257.0 257.0 x1 118 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+963: 961 0 dx 257.0 257.0 x1 117 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+965: 963 0 dx 257.0 257.0 x1 116 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+967: 965 0 dx 257.0 257.0 x1 115 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+969: 967 0 dx 257.0 257.0 x1 114 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+971: 969 0 dx 257.0 257.0 x1 113 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+973: 971 0 dx 257.0 257.0 x1 112 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+975: 973 0 dx 257.0 257.0 x1 111 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+977: 975 0 dx 257.0 257.0 x1 110 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+979: 977 0 dx 257.0 257.0 x1 109 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+981: 979 0 dx 257.0 257.0 x1 108 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+983: 981 0 dx 257.0 257.0 x1 107 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+985: 983 0 dx 257.0 257.0 x1 106 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+987: 985 0 dx 257.0 257.0 x1 105 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+989: 987 0 dx 257.0 257.0 x1 104 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+991: 989 0 dx 257.0 257.0 x1 103 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+993: 991 0 dx 257.0 257.0 x1 102 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+995: 993 0 dx 257.0 257.0 x1 101 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+997: 995 0 dx 257.0 257.0 x1 100 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+999: 997 0 dx 257.0 257.0 x1 99 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1001: 999 0 dx 257.0 257.0 x1 98 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1003: 1001 0 dx 257.0 257.0 x1 97 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1005: 1003 0 dx 257.0 257.0 x1 96 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1007: 1005 0 dx 257.0 257.0 x1 95 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1009: 1007 0 dx 257.0 257.0 x1 94 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1011: 1009 0 dx 257.0 257.0 x1 93 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1013: 1011 0 dx 257.0 257.0 x1 92 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1015: 1013 0 dx 257.0 257.0 x1 91 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1017: 1015 0 dx 257.0 257.0 x1 90 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1019: 1017 0 dx 257.0 257.0 x1 89 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1021: 1019 0 dx 257.0 257.0 x1 88 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1023: 1021 0 dx 257.0 257.0 x1 87 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1025: 1023 0 dx 257.0 257.0 x1 86 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1027: 1025 0 dx 257.0 257.0 x1 85 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1029: 1027 0 dx 257.0 257.0 x1 84 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1031: 1029 0 dx 257.0 257.0 x1 83 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1033: 1031 0 dx 257.0 257.0 x1 82 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1035: 1033 0 dx 257.0 257.0 x1 81 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1037: 1035 0 dx 257.0 257.0 x1 80 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1039: 1037 0 dx 257.0 257.0 x1 79 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1041: 1039 0 dx 257.0 257.0 x1 78 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1043: 1041 0 dx 257.0 257.0 x1 77 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1045: 1043 0 dx 257.0 257.0 x1 76 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1047: 1045 0 dx 257.0 257.0 x1 75 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1049: 1047 0 dx 257.0 257.0 x1 74 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1051: 1049 0 dx 257.0 257.0 x1 73 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1053: 1051 0 dx 257.0 257.0 x1 72 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1055: 1053 0 dx 257.0 257.0 x1 71 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1057: 1055 0 dx 257.0 257.0 x1 70 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1059: 1057 0 dx 257.0 257.0 x1 69 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1061: 1059 0 dx 257.0 257.0 x1 68 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1063: 1061 0 dx 257.0 257.0 x1 67 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1065: 1063 0 dx 257.0 257.0 x1 66 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1067: 1065 0 dx 257.0 257.0 x1 65 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1069: 1067 0 dx 257.0 257.0 x1 64 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+8, 36, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 487, 12, 950, 52, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 488, 12, 952, 225, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 489, 12, 954, 37, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 490, 12, 956, 241, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 491, 12, 958, 23, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 492, 12, 960, 24, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 493, 12, 962, 25, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 494, 12, 964, 26, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 495, 12, 966, 38, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 496, 12, 968, 39, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 497, 12, 970, 40, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 498, 12, 972, 41, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 499, 12, 974, 42, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 500, 12, 976, 53, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 501, 12, 978, 54, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 502, 12, 980, 55, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 503, 12, 982, 56, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 504, 12, 984, 57, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 505, 12, 986, 58, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 506, 12, 988, 67, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 507, 12, 990, 68, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 508, 12, 992, 69, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 509, 12, 994, 70, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 510, 12, 996, 71, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 511, 12, 998, 72, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 512, 12, 1000, 73, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 513, 12, 1002, 74, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 514, 12, 1004, 83, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 515, 12, 1006, 84, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 516, 12, 1008, 85, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 517, 12, 1010, 86, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 518, 12, 1012, 87, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 519, 12, 1014, 88, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 520, 12, 1016, 89, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 521, 12, 1018, 90, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 522, 12, 1020, 99, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 523, 12, 1022, 100, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 524, 12, 1024, 101, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 525, 12, 1026, 102, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 526, 12, 1028, 103, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 527, 12, 1030, 104, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 528, 12, 1032, 105, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 529, 12, 1034, 106, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 530, 12, 1036, 115, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 531, 12, 1038, 116, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 532, 12, 1040, 117, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 533, 12, 1042, 118, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 534, 12, 1044, 119, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 535, 12, 1046, 120, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 536, 12, 1048, 121, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 537, 12, 1050, 122, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 538, 12, 1052, 130, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 539, 12, 1054, 131, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 540, 12, 1056, 132, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 541, 12, 1058, 133, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 542, 12, 1060, 134, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 543, 12, 1062, 135, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 544, 12, 1064, 136, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 545, 12, 1066, 137, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 546, 12, 1068, 138, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 547, 12, 1070, 146, 1071: 1069 0 dx 257.0 257.0 x1 63 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1073: 1071 0 dx 257.0 257.0 x1 62 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1075: 1073 0 dx 257.0 257.0 x1 61 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1077: 1075 0 dx 257.0 257.0 x1 60 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1079: 1077 0 dx 257.0 257.0 x1 59 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1081: 1079 0 dx 257.0 257.0 x1 58 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1083: 1081 0 dx 257.0 257.0 x1 57 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1085: 1083 0 dx 257.0 257.0 x1 56 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1087: 1085 0 dx 257.0 257.0 x1 55 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1089: 1087 0 dx 257.0 257.0 x1 54 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1091: 1089 0 dx 257.0 257.0 x1 53 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1093: 1091 0 dx 257.0 257.0 x1 52 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1095: 1093 0 dx 257.0 257.0 x1 51 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1097: 1095 0 dx 257.0 257.0 x1 50 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1099: 1097 0 dx 257.0 257.0 x1 49 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1101: 1099 0 dx 257.0 257.0 x1 48 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1103: 1101 0 dx 257.0 257.0 x1 47 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1105: 1103 0 dx 257.0 257.0 x1 46 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1107: 1105 0 dx 257.0 257.0 x1 45 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1109: 1107 0 dx 257.0 257.0 x1 44 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1111: 1109 0 dx 257.0 257.0 x1 43 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1113: 1111 0 dx 257.0 257.0 x1 42 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1115: 1113 0 dx 257.0 257.0 x1 41 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1117: 1115 0 dx 257.0 257.0 x1 40 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1119: 1117 0 dx 257.0 257.0 x1 39 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1121: 1119 0 dx 257.0 257.0 x1 38 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1123: 1121 0 dx 257.0 257.0 x1 37 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1125: 1123 0 dx 257.0 257.0 x1 36 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1127: 1125 0 dx 257.0 257.0 x1 35 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1129: 1127 0 dx 257.0 257.0 x1 34 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1131: 1129 0 dx 257.0 257.0 x1 33 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1133: 1131 0 dx 257.0 257.0 x1 32 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1135: 1133 0 dx 257.0 257.0 x1 31 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1137: 1135 0 dx 257.0 257.0 x1 30 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1139: 1137 0 dx 257.0 257.0 x1 29 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1141: 1139 0 dx 257.0 257.0 x1 28 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1143: 1141 0 dx 257.0 257.0 x1 27 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1145: 1143 0 dx 257.0 257.0 x1 26 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1147: 1145 0 dx 257.0 257.0 x1 25 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1149: 1147 0 dx 257.0 257.0 x1 24 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1151: 1149 0 dx 257.0 257.0 x1 23 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1153: 1151 0 dx 257.0 257.0 x1 22 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1155: 1153 0 dx 257.0 257.0 x1 21 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1157: 1155 0 dx 257.0 257.0 x1 20 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1159: 1157 0 dx 257.0 257.0 x1 19 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1161: 1159 0 dx 257.0 257.0 x1 18 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1163: 1161 0 dx 257.0 257.0 x1 17 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1165: 1163 0 dx 257.0 257.0 x1 16 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1167: 1165 0 dx 257.0 257.0 x1 15 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1169: 1167 0 dx 257.0 257.0 x1 14 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1171: 1169 0 dx 257.0 257.0 x1 13 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1173: 1171 0 dx 257.0 257.0 x1 12 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1175: 1173 0 dx 257.0 257.0 x1 11 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1177: 1175 0 dx 257.0 257.0 x1 10 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1179: 1177 0 dx 257.0 257.0 x1 9 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1181: 1179 0 dx 257.0 257.0 x1 8 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1183: 1181 0 dx 257.0 257.0 x1 7 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1185: 1183 0 dx 257.0 257.0 x1 6 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1187: 1185 0 dx 257.0 257.0 x1 5 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1189: 1187 0 dx 257.0 257.0 x1 4 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 548, 12, 1072, 147, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 549, 12, 1074, 148, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 550, 12, 1076, 149, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 551, 12, 1078, 150, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 552, 12, 1080, 151, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 553, 12, 1082, 152, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 554, 12, 1084, 153, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 555, 12, 1086, 154, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 556, 12, 1088, 162, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 557, 12, 1090, 163, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 558, 12, 1092, 164, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 559, 12, 1094, 165, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 560, 12, 1096, 166, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 561, 12, 1098, 167, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 562, 12, 1100, 168, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 563, 12, 1102, 169, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 564, 12, 1104, 170, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 565, 12, 1106, 178, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 566, 12, 1108, 179, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 567, 12, 1110, 180, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 568, 12, 1112, 181, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 569, 12, 1114, 182, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 570, 12, 1116, 183, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 571, 12, 1118, 184, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 572, 12, 1120, 185, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 573, 12, 1122, 186, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 574, 12, 1124, 194, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 575, 12, 1126, 195, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 576, 12, 1128, 196, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 577, 12, 1130, 197, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 578, 12, 1132, 198, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 579, 12, 1134, 199, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 580, 12, 1136, 200, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 581, 12, 1138, 201, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 582, 12, 1140, 202, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 583, 12, 1142, 210, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 584, 12, 1144, 211, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 585, 12, 1146, 212, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 586, 12, 1148, 213, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 587, 12, 1150, 214, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 588, 12, 1152, 215, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 589, 12, 1154, 216, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 590, 12, 1156, 217, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 591, 12, 1158, 218, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 592, 12, 1160, 226, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 593, 12, 1162, 227, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 594, 12, 1164, 228, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 595, 12, 1166, 229, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 596, 12, 1168, 230, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 597, 12, 1170, 231, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 598, 12, 1172, 232, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 599, 12, 1174, 233, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 600, 12, 1176, 234, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 601, 12, 1178, 242, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 602, 12, 1180, 243, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 603, 12, 1182, 244, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 604, 12, 1184, 245, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 605, 12, 1186, 246, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 606, 12, 1188, 247, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 607, 12, 1190, 248, 1.000000, 1.00001191: 1189 0 dx 257.0 257.0 x1 3 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1193: 1191 0 dx 257.0 257.0 x1 2 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+1195: 1193 0 dx 257.0 257.0 x1 1 x2 -1 dx1 257.0 257.0 dx2 0.0 0.0 -- Add supported insnID: 0
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function _IO_getc
+==23282==WARNING: DataFlowSanitizer: call to uninstrumented function exit
+==23282==INFO: DataFlowSanitizer: dumping derivatives to hello.txt
+00
+rdjpgcom.c:87 - read_byte' , 608, 12, 1192, 249, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 609, 12, 1194, 250, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 610, 12, 1196, 255, 1.000000, 1.000000
+rdjpgcom.c:87 - read_byte' , 611, 12, 1197, 218, 1.000000, 1.000000
+rdjpgcom.c:359 - marker' , 8, 12, 1197, 218, 1.000000, 1.000000
